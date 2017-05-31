@@ -1,0 +1,23 @@
+{
+  "name": "protest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^15.0.25",
+    "@types/react-dom": "^15.5.0",
+    "@types/three": "^0.84.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "three": "^0.85.2",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

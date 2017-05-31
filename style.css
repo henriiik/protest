@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex: 1 0 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#left {
+    display: flex;
+    flex: 0 0 25%;
+    min-width: 250px;
+}
+
+#right {
+    display: flex;
+    flex: 1 0 auto;
+}
